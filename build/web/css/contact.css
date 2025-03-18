@@ -1,0 +1,116 @@
+.breadcrumb {
+  margin: 0;
+  font-size: 18px;
+  padding: 35px 0px;
+  border-radius: 0;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb li > a {
+  color: #333;
+}
+
+.breadcrumb li > a > span {
+  color: #333;
+}
+
+.breadcrumb li .mr_lr {
+  padding: 0px 3px;
+  color: #333;
+}
+
+.breadcrumb li .mr_lr svg {
+  width: 10px;
+  height: 10px;
+  margin-top: -2px;
+}
+
+.breadcrumb li span {
+  display: inline;
+  color: #333;
+}
+
+.breadcrumb li span .fa {
+  color: #333;
+  padding: 0px 5px;
+}
+
+.breadcrumb li a:hover,
+.breadcrumb li.active,
+.breadcrumb li strong {
+  color: #fe9614;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover span,
+.breadcrumb li.active span,
+.breadcrumb li strong span {
+  color: #1c5b41;
+  font-weight: 700;
+}
+
+.breadcrumb > li + li:before {
+  display: none;
+}
+
+.welcome {
+    width: 1366px;
+    height: 768px;
+    margin: auto;
+}
+
+.bg-img {
+    background-color: #000;
+    background-size: cover; /* Adjusts image size responsively */
+    background-image: url(../images/slide-logo/welcome.webp);
+    height: 100%; /* Ensures the bg-img div has height */
+}
+#map {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.layout-contact {
+  margin-bottom: 30px;
+}
+
+.layout-contact .contact {
+  margin-bottom: 20px;
+}
+
+.layout-contact .contact h4 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1c5b41;
+}
+
+.layout-contact .contact .time_work .item {
+  position: relative;
+  padding-left: 26px;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.layout-contact .contact .time_work .item svg {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+.layout-contact .contact .time_work .item svg path {
+  fill: #1c5b41;
+}

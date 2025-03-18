@@ -1,0 +1,47 @@
+.page_customer_account,
+.address,
+.page_order {
+  padding: 20px 0;
+}
+
+.col-left-ac .block-account .title-account {
+  font-size: 19px;
+  font-weight: 400;
+  color: #212b25;
+  margin-bottom: 7px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.col-left-ac .block-account p {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  margin-bottom: 28px;
+  color: #212b25;
+  position: relative;
+}
+
+.col-left-ac .block-account ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.col-left-ac .block-account ul .title-info {
+  font-weight: 400;
+  font-size: 16px;
+  color: #212b25;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.col-left-ac .block-account ul .title-info:hover,
+.col-left-ac .block-account ul .title-info.active {
+  color: #fe9614;
+}
+
+#logo img {
+    border-radius: 50%;
+    width: 50%;
+}

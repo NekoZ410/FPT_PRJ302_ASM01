@@ -1,0 +1,63 @@
+.breadcrumb {
+  margin: 0;
+  font-size: 18px;
+  padding: 25px 0px;
+  border-radius: 0;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb li > a {
+  color: #333;
+}
+
+.breadcrumb li > a > span {
+  color: #333;
+}
+
+.breadcrumb li .mr_lr {
+  padding: 0px 3px;
+  color: #333;
+}
+
+.breadcrumb li .mr_lr svg {
+  width: 10px;
+  height: 10px;
+  margin-top: -2px;
+}
+
+.breadcrumb li span {
+  display: inline;
+  color: #333;
+}
+
+.breadcrumb li span .fa {
+  color: #333;
+  padding: 0px 5px;
+}
+
+.breadcrumb li a:hover,
+.breadcrumb li.active,
+.breadcrumb li strong {
+  color: #fe9614;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover span,
+.breadcrumb li.active span,
+.breadcrumb li strong span {
+  color: #1c5b41;
+  font-weight: 700;
+}
+
+.breadcrumb > li + li:before {
+  display: none;
+}

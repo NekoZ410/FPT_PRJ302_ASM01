@@ -1,0 +1,98 @@
+.title-product {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.sku {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #484848;
+    margin-bottom: 20px;
+}
+
+
+
+.gallery-top .swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto !important;
+    height: auto !important;
+}
+
+.layout-product {
+    padding-bottom: 50px;
+}
+
+.btn-mua {
+    width: 100%;
+}
+
+.btn-mua button:hover {
+    background: #fe9614;
+    color: #fff;
+}
+
+.btn-mua button {
+    width: 100%;
+    background: #1c5b41;
+    border-radius: 10px;
+    height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    border: #1c5b41;
+}
+
+.star-rating {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* Hiển thị ngôi sao từ phải qua trái */
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+    /* Ẩn nút radio */
+}
+
+.star-rating label {
+    color: #ccc;
+    /* Màu ngôi sao chưa chọn */
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+/* Màu ngôi sao khi chọn */
+.star-rating input[type="radio"]:checked~label,
+.star-rating label:hover,
+.star-rating label:hover~label {
+    color: #ffc107;
+}
+
+.comment {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    color: #484848;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+

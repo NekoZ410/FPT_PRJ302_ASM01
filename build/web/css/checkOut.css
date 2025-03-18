@@ -1,0 +1,55 @@
+.h-100 {
+  background-color: #fdf7ec;
+}
+.background {
+  background-color: #fdf7ec;
+}
+.footer mt-auto py-3 {
+  background-color: #fdf7ec;
+}
+.custom-control-label {
+  font-weight: bold;
+  color: #947d69;
+}
+.mid-footer {
+  background-color: #fdf7ec;
+  padding: 20px 0;
+}
+
+.l1 {
+  color: black;
+  font-size: 45px;
+  font-family: roto;
+}
+.shop {
+  font-size: 20px;
+}
+.list-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-menu a {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #947d69;
+  font-weight: bold;
+}
+.list-menu a:hover {
+  color: orange;
+}
+.line {
+  width: 150%;
+}
+.qr {
+  text-align: center;
+}
+.qr img {
+  width: 70%;
+  height: 320px;
+  border-radius: 50px;
+}
+.mb-3 {
+  padding-top: 20px;
+}

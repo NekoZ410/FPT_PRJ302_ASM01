@@ -1,0 +1,172 @@
+/*  FILE NÀY FILE CŨ */
+.nv {
+    background: #1c5b41;
+    border: 1px solid rgb(255, 255, 255);
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+   
+}
+thead tr th {
+    color: rgb(255, 255, 255) !important;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #1c5b41 !important;
+    text-align: center !important;
+}
+tbody tr td {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+.ds {
+    font-size: 30px;
+    color: black;
+}
+#myInput {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 80%;
+    font-size: 14px;
+    padding: 12px 12px 10px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    outline: none !important;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 0px !important;
+}
+
+.dataTables_filter {
+    display: none;
+}
+.sorting {
+    background: none !important;
+}
+#myTable table {
+    padding: 0px 0px 0px 0px !important;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    *cursor: hand;
+}
+.pagination {
+    float: right;
+}
+.hr1 {
+    border: 1px solid black;
+}
+.link i {
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.link {
+    padding-bottom: 20px;
+}
+
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+.table-title .add-new i {
+    margin-right: 4px;
+}
+table.table {
+    table-layout: fixed;
+}
+table.table tr th,
+table.table tr td {
+    border-color: #e9e9e9;
+}
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}
+table.table td a.delete {
+    color: #e34724;
+}
+
+table.table td .add {
+    display: none;
+}
+.pg-normal {
+    color: #006bcf;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+.user-search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.user-search input {
+    font-size: 15px;
+    padding: 10px 0 10px 10px;
+    width: 80%;
+}
+
+.user-search button {
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    justify-content:space-between;
+}
+
+.user-search button span i {
+    font-size: 15px;
+}
+.nv:hover {
+    background-color: #fe9614; /* Màu khi di chuột qua */
+}
+.ex th{
+    background-color: #45a049;
+}
